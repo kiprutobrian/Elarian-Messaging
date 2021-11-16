@@ -7,9 +7,9 @@ const port = 5000;
 const handlerFunction = () => {
   //connection
   const client = new Elarian({
-    orgId: process.env.orgId,
-    appId: process.env.appId,
-    apiKey: process.env.apiKey,
+    orgId: process.env.ORG_ID,
+    appId: process.env.APP_ID,
+    apiKey: process.env.API_KEY,
   });
   //The recipient number
   client
